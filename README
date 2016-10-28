@@ -1,0 +1,23 @@
+GET
+http://lowcost-env.xm8zufvgc8.us-west-2.elasticbeanstalk.com/superhero/
+
+
+POST
+http://lowcost-env.xm8zufvgc8.us-west-2.elasticbeanstalk.com/superhero
+Request body
+{
+   "name": "Batman",
+    "pseudonym": "Dark",
+    "publisher": "Marvel3",
+    "powers": [
+    { "name":"money"},{"name":"Power2"}
+    ]
+    ,
+    "allies": [{"name":"Robin"}],
+    "firstAppearance": "2000-10-27"
+  }
+  
+  
+GET
+http://lowcost-env.xm8zufvgc8.us-west-2.elasticbeanstalk.com/superhero/{id}
+
